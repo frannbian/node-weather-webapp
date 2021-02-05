@@ -25,11 +25,10 @@ header {
     margin-bottom: 48px;
 }
 
-header a {
+header a, footer a {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
-
 }
 
 h1 {
