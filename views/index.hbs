@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }} </title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            
+            <p>Use this site to get your weather.</p>
+            
+            <form>
+                <input placeholder="Location"/>
+                <button>Search</button>
+           
+            </form>
+
+            <p id="loading-message"></p>
+            <p id="response-message"></p>
+        </div>
+        {{>footer}}
+        <script src="/assets/js/app.js"></script>
+    </body>
+</html>
