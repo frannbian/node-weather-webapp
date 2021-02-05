@@ -1,3 +1,7 @@
 Get your forescast easily! Node WebApp
 
-Web: https://frannbian-node-weather-app.herokuapp.com/
+WebAPP developed with Node.js, Handlebars & CSS.
+
+Packages used: expess.js, postman-request, hbs.
+
+Try it: https://frannbian-node-weather-app.herokuapp.com/
