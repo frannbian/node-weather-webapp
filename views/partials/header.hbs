@@ -1,6 +1,23 @@
 <header>
-    <h1>{{ title }}</h1>
-    <a href="/">Weather</a>
-    <a href="/about">About</a>
-    <a href="/help">Help</a>
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">{{ title }}</a>
+          
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="/">Weather</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/help">Help</a></li>
+            </ul>
+            
+            <ul id="slide-out" class="sidenav">
+                <li><a class="subheader">Menu</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="waves-effect" href="/">Weather</a></li>
+                <li><a class="waves-effect" href="/about">About</a></li>
+                <li><a class="waves-effect" href="/help">Help</a></li>
+            </ul>
+        </div>
+    </nav>
 </header>

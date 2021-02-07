@@ -2,14 +2,18 @@
 <html>
     <head>
         <title>Weather APP | {{ title }}</title>
-        <link rel="stylesheet" href="/assets/css/styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" />
+        {{>headScripts}}
     </head>
     <body>
-        <div class="main-content">
-            {{>header}}
-            <p>{{ text }}</p>
+        {{>header}}
+        <div class="main-content container">
+            <div class="row">
+                <div class="col s12">
+                    <p class="flow-text">{{ text }}</p>
+                </div>
+            </div>
         </div>
         {{>footer}}
+        {{>bodyScripts}}
     </body>
 </html>

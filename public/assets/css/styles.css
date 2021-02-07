@@ -1,9 +1,7 @@
 body {
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 75%;
     margin: 0 auto;
-    padding: 0 16px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -13,20 +11,9 @@ body {
     flex-grow: 1;
 }
 
-footer {
-    color: #888888;
-    border-top: 1px solid #eeeeee;
-    margin-top: 16px;
-    padding: 16px 0;
-}
-
-header {
-    margin-top: 16px;
-    margin-bottom: 48px;
-}
 
 header a, footer a {
-    color: #888888;
+    color: #dddddd;
     margin-right: 16px;
     text-decoration: none;
 }
@@ -52,10 +39,5 @@ button:focus, input:focus {
 }
 
 button {
-    cursor: pointer;
-    border: 1px solid #888888;
-    background: #888888;
-    color: white;
-    padding: 8px;
-    border-radius: 180px;
+    width: 100%;
 }
